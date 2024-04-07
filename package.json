@@ -2,10 +2,11 @@
   "name": "swiggy",
   "version": "1.0.0",
   "description": "Order food online from restaurants and get it delivered. Serving in Bangalore, Hyderabad, Delhi and more. Order Pizzas, Biryanis, from Swiggy.",
-  "main": "index.js",
+  "main": "index.html",
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
+    "build":"parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
